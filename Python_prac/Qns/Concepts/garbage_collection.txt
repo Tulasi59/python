@@ -1,0 +1,42 @@
+1.Memory Management in python?
+Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.
+The allocation of Python heap space for Python objects is done by Python memory manager. The core API gives access to some tools for the programmer to code.
+Python also have an inbuilt garbage collector, which recycle all the unused memory and frees the memory and makes it available to the heap space.
+
+
+2.What is Garbage Collector?
+ Python interpreter only used reference counting for memory management. Reference counting works by counting the number of times an object is referenced by other objects in the system. When references to an object are removed, the reference count for an object is decremented. When the reference count becomes zero, the object is deallocated
+
+3.Garbage collection algorithms
+  Standard CPython's garbage collector has two components, the reference counting collector and the generational garbage collector, known as gc module.
+  The reference counting algorithm is incredibly efficient and straightforward, but it cannot detect reference cycles.
+4.Reference counting?
+Reference counting is a simple technique in which objects are deallocated when there is no reference to them in a program.
+You can always check the number of current references using sys.getrefcount function.
+syntax:
+    sys.getrefcount(object)
+Example:
+ a =10
+ sys.getrefcount(a)
+
+5.where the reference count increases?
+    assignment operator
+    argument passing
+    appending an object to a list (object's reference count will be increased).
+If reference counting field reaches zero, CPython automatically calls the object-specific memory deallocation function.
+6. disadvantage of reference count?
+The reference counting algorithm has a lot of issues, such as circular references, thread locking and memory and performance overhead.
+7.Generational garbage collector?
+import gc
+#for disable
+gc.disable()
+
+Note:
+1.Destroy the Objects reference
+    del <object name>
+2. if you want to manually run garbage collection process
+    gc.collect()
+3.Most of the garbage collection is done by reference counting algorithm
+4.site:
+    https://rushter.com/blog/python-garbage-collector/
+    https://www.geeksforgeeks.org/garbage-collection-python/

@@ -1,0 +1,125 @@
+1.How to find len of list without using built-in functions 
+2.why tuple fast
+3.how to work GC
+4.2nd algorithm of GC
+5.sorting list without using builtin functions
+6.diff btw dir and help
+7.diff btw list and tuple
+8.how to read bult data file in simple way
+9.how to change a =30 to 20 in text file
+10.revers string 
+	example :
+	input:'hello tulasi'
+	output:'olleh isalut'
+11.what is Virtual evrn 
+12.what is HttpResponse and render 
+13.write prime number program in simple way
+14.can we use set as key in dictionary
+15. if string is immutable then 
+ex:
+	s ="hello"
+	s+'hi'
+	how can change 
+16.what is JSON serialization
+17.why change list inside tuple
+18.how to convert list to tuple
+19.diff btw python 2 and 3
+20.
+
+
+
+
+-------------------------Topics------------------------
+https://docs.python-guide.org/intro/learning/
+https://www.techbeamers.com/python-tutorial-step-by-step/
+
+
+
+1.Indentifiers
+2.keywords
+3.operators
+4.data types:
+    numbers
+    string
+    list
+    tuple
+    dictionaries
+    set
+    arrays
+5.f-string
+6.namespace and Scopes
+7.for loop
+8.range
+9.while loop
+10.ternary operator
+11.lambda functions
+12.filter,map and reduce functions
+13.comprehensions(list,generator,dictionary etc)
+14.Iterators
+15.generators
+16.functions
+17.Oops
+    class
+    object
+    self
+    constructor
+    enscapulation
+    inheritance
+    abstraction
+    polymorphism
+18.file handling
+19.copy file
+20.exception handling
+21. try and Except
+22.regular Expressions
+23.modules,packages,libraries
+24.Multi Processing
+25.Multi Threading
+26.Unitest
+27.zip
+28.pickle(pickling objects)
+29.Serialization
+30.Decorators
+31.Operator Overloading
+32. **kwargs and *args
+33. install packages with pip
+34.virtualenr
+35.recursive functions
+36.what is if __name__=="__main__"?
+37.read and write files
+38.read and write CSV files
+39.read and write JSON in python
+40.GC
+41.Memory Management
+43.Web scraping
+44.connect database with python
+45.monkey patching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

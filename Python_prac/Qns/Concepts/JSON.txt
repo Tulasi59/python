@@ -1,0 +1,19 @@
+site:
+    https://thepythonguru.com/reading-and-writing-json-in-python/
+JSON (JavaScript Object Notation) is language-neutral data interchange format
+
+JSON is a text-based format which is derived from JavaScript object syntax. However, it is completely independent of JavaScript, so you don't need to know any JavaScript to use JSON.
+
+JSON is commonly used by web applications to transfer data between client and server
+
+Serialization:
+    The process of converting an object into a special format which is suitable for transmitting over the network or storing in file or database is called Serialization.
+Deserialization:
+    It is the reverse of serialization. It converts the special format returned by the serialization back into a usable object.
+
+Python provides a built-in module called json for serializing and deserializing objects
+The json module mainly provides the following functions for serializing and deserializing.
+    1.dump(obj, fileobj)
+    2.dumps(obj)
+    3.load(fileobj)
+    4.loads(s)

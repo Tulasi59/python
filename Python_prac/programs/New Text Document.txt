@@ -1,0 +1,119 @@
+zip in python3
+izip in python 2
+import zip and izip from itertools
+zip_longest or izip_longest 
+list1 = [1, 2, 3, 4, 5, 6,0]
+list2 = [10, 9, 8, 7, 6, 5]
+print(dict(itertools.zip_longest(list2,list1))) #{5: 6, 6: 5, 7: 4, 8: 3, 9: 2, 10: 1, None: 0}
+
+================================
+list = ["1", "4", "0", "6", "9"]
+
+print(list.sort()) #None
+print(list) #['0', '1', '4', '6', '9']
+print(sorted(list)) #['0', '1', '4', '6', '9']
+
+=============== PALINDROME ==========================
+def str_palindrome(str):
+    if str==str[::-1]:
+        print("palindrome")
+    else:
+        print("not palindrome")
+print(str_palindrome('232')) #palindrome
+
+			***************
+			
+def int_palindrome(num):
+    original =num
+    reverse =0
+    while num>0:
+        remainder = num%10
+        num = num//10
+        reverse=reverse*10+remainder
+    if original==reverse:
+        print("palindrome")
+    else:
+        print('not palindrome')
+print(int_palindrome(232)) #palindrome
+
+		*********** FOR STRING AND INT *****************
+a=input("enter sequence")
+b=a[::-1]
+print(type(a)) #<class 'str'>
+if a==b:
+    print("palindrome")
+else:
+    print("Not a Palindrome")
+
+output:
+enter sequence252
+palindrome
+ ================= Fibonacci and recursion function example ==========================
+
+def Fibonacci (num):
+    if num==1:
+       return 1
+    while num>1:
+         return  num*Fibonacci(num-1)
+print(Fibonacci (5)) #120
+ 
+ ====================================
+  Write a program in Python to produce Star triangle.
+  
+ def pyfunc(n):
+    for i in range(1,n):
+      print(" "*(n-i)+"*"*(2*(i)-1))
+pyfunc(9)
+output:
+		*
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+ ***************
+*****************
+==================================
+def pyfunc(n):
+    for i in range(n,0,-1):
+    print(" " * (n - i) + "*" * (2 * (i) - 1))
+pyfunc(9)
+output:
+*****************
+ *************** 
+  *************  
+   ***********   
+    *********    
+     *******     
+      *****      
+       ***       
+        *  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Prime
+2.Fibonacci in single line
+3.amstrong
+4.sorting list
+5.remove duplicate in list
+6.sorting dict by values
+7.factoral
+8.reverse string
+9.2nd lag num in list
+10.palindrome
+11.patterns
+12.string problems
+
+
