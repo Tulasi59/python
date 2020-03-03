@@ -1,0 +1,35 @@
+1.What is Virtual environment ?
+virtualenv is a tool to create isolated Python environments
+It creates an environment that has its own installation directories, that doesn’t share libraries with other
+virtualenv environments (and optionally doesn’t access the globally installed libraries either).
+
+https://www.tutorialspoint.com/http/http_overview.htm
+https://www.nginx.com/resources/glossary/web-server/
+https://www.tutorialspoint.com/internet_technologies/web_servers.htm
+
+An IP address identifies a host machine on the Internet.
+-An IP port will identify a specific application running on an Internet host
+machine.
+-A port is identified by a number, the port number.
+-The number of ports is not functionally limited, in contrast to serial
+communications where only 4 ports are allowed.
+-There are some port numbers which are dedicated for specific
+applications
+
+
+The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,
+collaborative, hypermedia information systems. This is the foundation for data communication for the World Wide Web (i.e. internet)
+
+
+ Protocols
+-Define the rules that govern the communications between two
+computers connected to the network.
+-Roles: addressing and routing of messages, error detection and
+recovery, sequence and flow controls etc.
+-A protocol specification consists of the syntax, which defines the kinds
+and formats of the messages exchanged, and the semantic, which
+specifies the action taken by each entity when specific events occur.
+Example: HTTP protocol for communication between web browsers
+and servers.
+
+
